@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .containerProject {
+            margin: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            color: #2d6a4f;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: #2d6a4f;
+            color: white;
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .project-card img:hover {
+            transform: scale(1.1);
+        }
+
+        .project-content {
+            padding: 15px;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #a3b18a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .read-more:hover {
+            background-color: #8f9c75;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containerProject">
+        <h1 class="title">Our Projects</h1>
+        <div class="projects">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project One">
+                <div class="project-content">
+                    <h3>Strengthening climate resilience</h3>
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project Two">
+                <div class="project-content">
+                    <h3>Green Technology Homes</h3>
+                    <p>Making a difference by linking affordable homes with climate-resilient and green technologies</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project Three">
+                <div class="project-content">
+                    <h3>Strengthening climate resilience</h3>
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

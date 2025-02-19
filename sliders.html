@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAO.RW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="landing.css" rel="stylesheet">
+    <link href="aboutus.css" rel="stylesheet">
+    <link href="news.css" rel="stylesheet">
+    <link href="project.css" rel="stylesheet">
+    <link href="missionandvission.css" rel="stylesheet">
+    <link href="parterns.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="contact-info">
+        <span>Rwanda Environment Awareness Organisation</span>
+        </div>
+        <div class="language">
+            <span>📞 +250 788 123 456</span>
+        </div>
+        <div class="social-icons">
+             <a href="#">📺</a> <a href="#">📷</a> <a href="#">🎞️</a> <a href="#">💼</a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpeg" alt="Rwanda Green Fund Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Apply</a></li>
+                <li><a href="#">Knowledge Center</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Opportunity</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Slider Section -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <div class="img">
+                    <img src="enviro2.jpeg" alt="Environment 1">
+                </div>
+                <div class="text">
+                    <h1>Champions</h1>
+                    <p>The "Rwanda Environment Awareness Organisation" (REAO) is one of the NGOs in Rwanda that has been
+                        intervening in environmental awareness and nature conservation since its inception in 2011.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="img">
+                    <img src="enviro4.jpg" alt="Environment 2">
+                </div>
+                <div class="text">
+                    <h1>Champions</h1>
+                    <p>The "Rwanda Environment Awareness Organisation" (REAO) is one of the NGOs in Rwanda that has been
+                        intervening in environmental awareness and nature conservation since its inception in 2011.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="img">
+                    <img src="enviro3.jpeg" alt="Environment 3">
+                </div>
+                <div class="text">
+                    <h1>Champions</h1>
+                    <p>The "Rwanda Environment Awareness Organisation" (REAO) is one of the NGOs in Rwanda that has been
+                        intervening in environmental awareness and nature conservation since its inception in 2011.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="slider-dots">
+            <span class="dot" onclick="setSlideFromDot(0)"></span>
+            <span class="dot" onclick="setSlideFromDot(1)"></span>
+            <span class="dot" onclick="setSlideFromDot(2)"></span>
+        </div>
+    </div>
+
+    <!-- About us page -->
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>We are a leading company dedicated to innovation and excellence.dedicated to innovation <br>and excellence,dedicated to innovation and excellence.<br>.</p>
+    </section>
+    
+    <section class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="profile1.png" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="profile3.png" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>CTO</p>
+            </div>
+            <div class="team-member">
+                <img src="profile2.jpeg" alt="Team Member 3">
+                <h3>David Lee</h3>
+                <p>COO</p>
+            </div>
+            <div class="team-member">
+                <img src="profile1.png" alt="Team Member 4">
+                <h3>Emily Johnson</h3>
+                <p>CFO</p>
+            </div>
+        </div>
+        
+    </section>
+    
+    <div class="vision-and-vission">
+        <section class="content-wrapper">
+            <div class="info-circle vision-section">
+                <img src="mision.png" alt="Vision Icon" class="section-icon">
+                <h2 class="info-title">Vision</h2>
+                <p class="info-text">To be the global leader in barrier technology.</p>
+            </div>
+            <div class="info-circle mission-section">
+                <img src="mission.png" alt="Mission Icon" class="section-icon">
+                <h2 class="info-title">Mission</h2>
+                <p class="info-text">Providing Total Barrier Solutions to the next generation printed and flexible
+                    electronics,
+                    and food & medical packaging industries.</p>
+            </div>
+            <div class="info-circle values-section">
+                <img src="values.png" alt="Values Icon" class="section-icon">
+                <h2 class="info-title">Values</h2>
+                <p class="info-text">Dedicated to providing high-quality products. Continually striving for the best
+                    through
+                    innovation.</p>
+            </div>
+        </section>
+    </div>
+    
+    <section class="stats-section">
+        <h1>Our Impact</h1>
+        <div class="stats-container">
+            <div class="stat-box">
+                <p>500+</p>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-box">
+                <p>100+</p>
+                <p>Team Members</p>
+            </div>
+            <div class="stat-box">
+                <p>50+</p>
+                <p>Countries Served</p>
+            </div>
+            <div class="stat-box">
+                <p>200+</p>
+                <p>Satisfied Clients</p>
+            </div>
+            <div class="stat-box">
+                <p>200+</p>
+                <p>Satisfied Clients</p>
+            </div>
+        
+            <div class="stat-box">
+                <p>500+</p>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-box">
+                <p>100+</p>
+                <p>Team Members</p>
+            </div>
+            <div class="stat-box">
+                <p>50+</p>
+                <p>Countries Served</p>
+            </div>
+            <div class="stat-box">
+                <p>200+</p>
+                <p>Satisfied Clients</p>
+            </div>
+           
+        </div>
+    </section>
+    <!-- ission and vision section  -->
+   
+
+    <section class="projects">
+        <h2 class="title">Our latest news</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="enviro3.jpeg" alt="Green Gicumbi Project">
+                <div class="project-info">
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="enviro4.jpg" alt="Green City Kigali Project">
+                <div class="project-info">
+                    <p>Making a difference by linking affordable homes with climate-resilient and green technologies</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="enviro3.jpeg" alt="Green Gicumbi Project">
+                <div class="project-info">
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="project-container">
+            <div class="project">
+                <img src="enviro3.jpeg" alt="Green Gicumbi Project">
+                <div class="project-info">
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="enviro4.jpg" alt="Green City Kigali Project">
+                <div class="project-info">
+                    <p>Making a difference by linking affordable homes with climate-resilient and green technologies</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="enviro3.jpeg" alt="Green Gicumbi Project">
+                <div class="project-info">
+                    <p>Strengthening climate resilience of rural communities in Northern Rwanda</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+
+    <!-- our project/ -->
+<section class="projects">
+    <h2>Our Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="projectenvgree.jpg" alt="Project 1">
+            <div class="card-content">
+                <h3>Strengthening climate resilience of rural communities</h3>
+                <p>Helping rural communities in Northern Rwanda adapt to climate change.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="projectstove.jpg" alt="Project 2">
+            <div class="card-content">
+                <h3>Affordable homes with green technologies</h3>
+                <p>Building affordable homes using sustainable materials and energy-efficient solutions.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="rain-water-project.jpg.jpg" alt="Project 3">
+            <div class="card-content">
+                <h3>Urban sustainability and green spaces</h3>
+                <p>Improving urban environments with more green spaces and smart infrastructure.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="projectwaste.jpg" alt="Project 1">
+            <div class="card-content">
+                <h3>Strengthening climate resilience of rural communities</h3>
+                <p>Helping rural communities in Northern Rwanda adapt to climate change.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="school-green-project.jpg" alt="Project 2">
+            <div class="card-content">
+                <h3>Affordable homes with green technologies</h3>
+                <p>Building affordable homes using sustainable materials and energy-efficient solutions.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="projectenvgree.jpg" alt="Project 3">
+            <div class="card-content">
+                <h3>Urban sustainability and green spaces</h3>
+                <p>Improving urban environments with more green spaces and smart infrastructure.</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- parteners section -->
+<div class="partners-container">
+    <h2>Our Partners</h2>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="partern1.jpg" alt="Partner 1"></div>
+            <div class="swiper-slide"><img src="partern2.jpg" alt="Partner 2"></div>
+            <div class="swiper-slide"><img src="partern3.jpg" alt="Partner 3"></div>
+            <div class="swiper-slide"><img src="partern4.jpg" alt="Partner 4"></div>
+            <div class="swiper-slide"><img src="partern6.jpg" alt="Partner 5"></div>
+            <div class="swiper-slide"><img src="partern1.jpg" alt="Partner 6"></div>
+            <div class="swiper-slide"><img src="partner7.png" alt="Partner 7"></div>
+            <div class="swiper-slide"><img src="partern4.jpg" alt="Partner 8"></div>
+            <div class="swiper-slide"><img src="partern6.jpg" alt="Partner 9"></div>
+            <div class="swiper-slide"><img src="partern3.jpg" alt="Partner 10"></div>
+        </div>
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="scriptpartern.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

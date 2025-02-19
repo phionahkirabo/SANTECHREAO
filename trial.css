@@ -1,0 +1,124 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Slider Container */
+.slider {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slides */
+.slide {
+    min-width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    flex-direction: row-reverse;
+    /* Image on the right */
+}
+
+/* Image Styling */
+.slide img {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Text Content */
+.text-content {
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Read More Button */
+.read-more {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: darkgreen;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    margin-top: 10px;
+}
+
+.nav-buttons button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.nav-buttons button:hover {
+    background-color: gray;
+}
+
+/* Dotted Navigation */
+.dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: black;
+}
