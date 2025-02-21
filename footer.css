@@ -1,93 +1,140 @@
+/* Footer Styling */
 .footer {
-    background: linear-gradient(to right, #4c8c63, #123c2c);
-    color: white;
-    padding: 20px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+    background-color: #148835;
+    /* Dark blue */
+    color: #ffffff;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
     width: 100vw;
 }
 
-.footer .logo {
-    width: 60px;
-    height: 60px;
-}
-
-.footer .center-section {
+.footer-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
 }
 
-.footer .links {
+/* Left Section: Logo & Contact */
+.footer-left {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background: none;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
     display: flex;
-    gap: 15px;
     align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
-.footer .links button {
-    background-color: #0c3d27;
+.contact-box .icon {
+    font-size: 18px;
+}
+
+/* Middle Section: Quick Links & Projects */
+.footer-middle {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Right Section: Newsletter */
+.footer-newsletter {
+    flex: 2;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-newsletter input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-newsletter button {
+    background-color:#f5e70c;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px;
+    width: 100%;
     cursor: pointer;
-    font-size: 14px;
+    border-radius: 5px;
 }
 
-.footer .divider {
-    height: 30px;
-    width: 2px;
-    background: white;
+.footer-newsletter button:hover {
+    background-color: #f5e70c;
 }
 
-.footer .social-icons {
+/* Social Media */
+.footer-social {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .social-icons img {
-    width: 20px;
-    cursor: pointer;
-}
-
-.footer .subscribe {
-    display: flex;
-    align-items: center;
+.footer-social a {
     background: white;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 5px;
-    overflow: hidden;
+    font-size: 16px;
 }
 
-.footer .subscribe input {
-    border: none;
-    outline: none;
-    padding: 10px;
-    width: 200px;
-}
-
-.footer .subscribe button {
-    background: #0c3d27;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-.footer .copyright {
+/* Bottom Section */
+.footer-bottom {
     text-align: center;
-    font-size: 12px;
-    margin-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
 }
 
-.footer .scroll-top {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
 }
